@@ -18,23 +18,22 @@ function main() {
       </div>
 
       <div id="about-me">
-        <h2>About Me</h2>
-        <p>
-          Self-motivated individual with a strong work ethic and effective time management skills.  Furthermore, with the ability to communicate effectively and high attention to detail. Also, strong analytical skills and a proactive attitude to problem solving.And last, but not least, not only a graphic/web designer with the ability to work independently and meet deadlines, but also, a team player who believes that anything is possible.
-        </p>
-
-        <div id="resume">
-          <h2>View My Resume</h2>
-          <p>
-            <a href=" "> {" "}
-              <button>Resume</button> {" "}
-            </a>
-          </p>
-        </div>
-
         <p>
           <img src={Img0} alt="profile" />
         </p>
+
+        <h2>About Me</h2>
+        <p>
+          Self-motivated individual with a strong work ethic and effective time management skills.  Furthermore, with the ability to communicate effectively and high attention to detail. Also, strong analytical skills and a proactive attitude to problem solving.And last, but not least, not only a graphic/web designer with the ability to work independently and meet deadlines, but also, a team player who believes that anything is possible.<br></br>
+
+          <div id="resume">
+            <h2>View My Resume</h2>
+            <a href=" "> {" "}
+              <button>Resume</button> {" "}
+            </a>
+          </div>
+        </p>
+
       </div>
 
       <div id="my-work">
