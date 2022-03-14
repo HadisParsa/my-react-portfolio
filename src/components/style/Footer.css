@@ -1,7 +1,7 @@
 :root {
-  --dark: rgb(254, 217, 143);
-  --light: rgb(254, 252, 212);
-  --blue: rgb(202, 233, 251);
+  --dark: #3E5974;
+  --light: #CC6D6E;
+  --blue: #D2CEC6;
 }
 
 * {
@@ -19,7 +19,7 @@ footer {
 footer p {
   text-align: center;
   font-weight: 400;
-  color: black;
+  color: #253546;
 }
 
 @media screen and (max-width: 786px) {

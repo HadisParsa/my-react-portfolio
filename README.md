@@ -47,9 +47,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The web application's appearance:
 
-Application is also Deployed to Heroku with a MongoDB database using MongoDB Atlas.
-
-[Application deployed at live URL.]()
+[Application deployed at live URL in heroku.](https://hp-my-react-portfolio.herokuapp.com/)
 
 
 The following animation shows the web application's appearance and functionality:

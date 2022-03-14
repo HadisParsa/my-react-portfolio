@@ -14,7 +14,9 @@ function main() {
     <section>
       <div className="quote">
         <h1>The digital revolution has transformed virtually every part of human existence, and I am proud to be a part of it as a web developer. welcome to my page.</h1>
+
         <p>MAKING IT HAPPEN!</p>
+
       </div>
 
       <div id="about-me">
