@@ -1,0 +1,38 @@
+:root {
+  --dark: rgb(254, 217, 143);
+  --light: rgb(254, 252, 212);
+  --blue: rgb(202, 233, 251);
+}
+
+* {
+  font-family: Verdana, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  width: auto;
+  margin: 40px;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 400;
+  color: black;
+}
+
+@media screen and (max-width: 786px) {
+  footer {
+    background-color: var(--dark);
+  }
+}
+
+.img {
+  width: 3%;
+  margin: 1%;
+}
+
+#icons {
+  text-align: center;
+}

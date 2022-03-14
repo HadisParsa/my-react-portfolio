@@ -65,7 +65,6 @@ Once you have install the packages, run `npm start` to open the application in a
 
 I deploied this application to my GitHub Page. 
 Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-**Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
 
 * Choose a color palette that distinguishes my site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/).
 
