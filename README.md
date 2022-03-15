@@ -50,9 +50,17 @@ The web application's appearance:
 [Application deployed at live URL in heroku.](https://hp-my-react-portfolio.herokuapp.com/)
 
 
-The following animation shows the web application's appearance and functionality:
+The following screen shots shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/)
+![ScreenShot.](./Assets/ScreenShot4.jpg)
+
+![ScreenShot.](./Assets/ScreenShot3.jpg)
+
+![ScreenShot.](./Assets/ScreenShot2.jpg)
+
+![ScreenShot.](./Assets/ScreenShot1.jpg)
+
+![ScreenShot.](./Assets/ScreenShot.jpg)
 
 ## Installation
 

@@ -144,8 +144,7 @@ function main() {
 
         <div className="my-work-card">
           <h3>CSS CHEATSHEET</h3>
-          <p>
-            A simple web-page that will hold a collection of CSS snippets.
+          <p>  Ever have trouble recalling the exact syntax for your favorite CSS code? This is A simple web-page that will hold a collection of CSS snippets.
             <br></br>
             <section>
               Click{" "}
