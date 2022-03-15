@@ -21,17 +21,18 @@ function main() {
         <p>MAKING IT HAPPEN!</p>
       </div>
 
-      <div id="about-me">
+      <div class="about-me">
         <p>
-          <img src={Img0} alt="profile" />
+          <img class="about-img" src={Img0} alt="profile" />
         </p>
 
-        <h2>About Me</h2>
-        <p>
+        <h1 class="text">About Me</h1>
+        <p clss="about-text">
           Self-motivated individual with a strong work ethic and effective time management skills.  Furthermore, with the ability to communicate effectively and high attention to detail. Also, strong analytical skills and a proactive attitude to problem solving.And last, but not least, not only a graphic/web designer with the ability to work independently and meet deadlines, but also, a team player who believes that anything is possible.<br></br>
 
           <div class="resume">
             <h2>View My Resume</h2>
+            <h6>For security purpose resume will be mostly empty</h6>
             <a href={Pdf} target="_blank "> {" "}
               <button>Resume</button> {" "}
             </a>

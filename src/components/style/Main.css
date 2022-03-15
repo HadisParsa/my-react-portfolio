@@ -34,32 +34,35 @@ body {
   font-weight: 400;
   color: #253546;
 }
-
 @media screen and (max-width: 786px) {
-  footer {
-    background-color: var(--dark);
+  .quote {
+    display: none;
+
   }
 }
 
-#about-me {
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 7%;
-}
 
-#about-me h2 {
-  margin: 0 5%;
-}
+.about-me {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 50em;
+  margin-top: 5em;
+  margin-bottom: 5em; }
+  .about-me::after {
+    content: '';
+    display: block;
+    clear: both; }
 
-#about-me img {
-  display: flex;
-  justify-content: space-evenly;
-  border-radius: 10%;
-  margin: 0 0 10%;
-}
+.about-img {
+  max-height: 25em; }
+  @media (min-width: 42em) {
+    .about-img {
+      float: left;
+      margin-right: 1em; } }
 
+.text{
+   color:#CC6D6E;
+ }
 .my-work {
   display: flex;
   flex-wrap: wrap;
