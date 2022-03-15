@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <p> You can follow me on social medias </p>
+        <p> You can find me on social medias </p>
       </div>
       <div id="icons">
         <a href="https://github.com/HadisParsa"
@@ -22,7 +22,7 @@ function Footer() {
           <img src={linkedin} alt="place-holder" class="img" />
         </a>
       </div>
-      <div>
+      <p>
         <h4 className='text-link'>
           Made with{' '}
           <span
@@ -33,9 +33,9 @@ function Footer() {
           >
             ❤️
           </span>{' '}
-          by Author.
+          by Hadis.
         </h4>
-      </div>
+      </p>
     </footer>
   );
 }

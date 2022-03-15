@@ -8,15 +8,17 @@ import Img3 from "./assets/images/portfolio02.jpg";
 import Img4 from "./assets/images/portfolio03.jpg";
 import Img5 from "./assets/images/portfolio04.jpg";
 import Img6 from "./assets/images/portfolio05.jpg";
+import Pdf from './assets/RPHadis.pdf';
 
 function main() {
   return (
     <section>
       <div className="quote">
         <h1>The digital revolution has transformed virtually every part of human existence, and I am proud to be a part of it as a web developer. welcome to my page.</h1>
-
+        <br></br>
+      </div>
+      <div className="quote">
         <p>MAKING IT HAPPEN!</p>
-
       </div>
 
       <div id="about-me">
@@ -28,9 +30,9 @@ function main() {
         <p>
           Self-motivated individual with a strong work ethic and effective time management skills.  Furthermore, with the ability to communicate effectively and high attention to detail. Also, strong analytical skills and a proactive attitude to problem solving.And last, but not least, not only a graphic/web designer with the ability to work independently and meet deadlines, but also, a team player who believes that anything is possible.<br></br>
 
-          <div id="resume">
+          <div class="resume">
             <h2>View My Resume</h2>
-            <a href=" "> {" "}
+            <a href={Pdf} target="_blank "> {" "}
               <button>Resume</button> {" "}
             </a>
           </div>
@@ -47,14 +49,17 @@ function main() {
           <h3>RECIPES WITH LITTLE TASTE OF MUSIC</h3>
           <p>
             User can choose the ingredient and cuisine. Meanwhile, they can enjoy a relevant music from youtube.<br></br>
-            Click{" "}
-            <a
-              href="https://github.com/marcmalliate/Collaborative-Project"
-              target="_blank"
-            >
-              here
-            </a>{" "}
-            for GitHub repo, click image for deployed website.
+            <section>
+              Click{" "}
+              <a
+                href="https://github.com/marcmalliate/Collaborative-Project"
+                target="_blank"
+              >
+                here
+              </a>{" "}
+              for GitHub repo, click image for deployed website.
+            </section>
+
           </p>
           <a href="https://github.com/HadisParsa/Recipes-with-little-taste-of-music"
             target="_blank"
@@ -68,12 +73,15 @@ function main() {
           <p>
             Book lovers can search for new books to read and they can keep a list of books to purchase.
             <br></br>
-            Click{" "}
-            <a href="https://github.com/HadisParsa/googlebook-search-engin"
-              target="_blank" >
-              here
-            </a>{" "}
-            for GitHub repo, click image for deployed website.
+            <section>
+              Click{" "}
+              <a href="https://github.com/HadisParsa/googlebook-search-engin"
+                target="_blank" >
+                here
+              </a>{" "}
+              for GitHub repo, click image for deployed website.
+            </section>
+
           </p>
           <a
             href="https://hp-googlebook-search-book.herokuapp.com/"
@@ -89,13 +97,16 @@ function main() {
           <p>
             User can create notes or code snippets with or without an internet connection so they can reliably retrieve them for later use.
             <br></br>
-            Click{" "}
-            <a href="https://github.com/HadisParsa/text-editor"
-              target="_blank" >
+            <section>
+              Click{" "}
+              <a href="https://github.com/HadisParsa/text-editor"
+                target="_blank" >
 
-              here
-            </a>{" "}
-            for GitHub repo, click image for deployed website.
+                here
+              </a>{" "}
+              for GitHub repo, click image for deployed website.
+            </section>
+
           </p>
           <a
             href="https://hp-text-editor.herokuapp.com/"
@@ -111,14 +122,17 @@ function main() {
           <p>
             User can search for a city current conditions and also five days future weather outlook for multiple cities.
             <br></br>
-            Click{" "}
-            <a
-              href="https://github.com/HadisParsa/weather-dashboard"
-              target="_blank"
-            >
-              here
-            </a>{" "}
-            for GitHub repo, click image for deployed website.
+            <section>
+              Click{" "}
+              <a
+                href="https://github.com/HadisParsa/weather-dashboard"
+                target="_blank"
+              >
+                here
+              </a>{" "}
+              for GitHub repo, click image for deployed website.
+            </section>
+
           </p>
           <a href="https://hadisparsa.github.io/weather-dashboard/"
             target="_blank"
@@ -132,11 +146,13 @@ function main() {
           <p>
             A simple web-page that will hold a collection of CSS snippets.
             <br></br>
-            Click{" "}
-            <a href="https://github.com/HadisParsa/CSS-Snippet-Cheatsheet" target="_blank">
-              here
-            </a>{" "}
-            for GitHub repo, click image for deployed website.
+            <section>
+              Click{" "}
+              <a href="https://github.com/HadisParsa/CSS-Snippet-Cheatsheet" target="_blank">
+                here
+              </a>{" "}
+              for GitHub repo, click image for deployed website.
+            </section>
           </p>
           <a
             href=" https://hadisparsa.github.io/CSS-Snippet-Cheatsheet/"
@@ -152,11 +168,11 @@ function main() {
           <p>
             Single page app that meets PWA criteria and uses a service worker.
             <br></br>
-            Click{" "}
-            <a href="https://github.com/HadisParsa/generate-a-password" target="_blank">
-              here
-            </a>{" "}
-            for GitHub repo, click image for deployed website.
+            <section >Click{" "}
+              <a href="https://github.com/HadisParsa/generate-a-password" target="_blank">
+                here
+              </a>{" "}
+              for GitHub repo, click image for deployed website.</section>
           </p>
           <a
             href="https://hadisparsa.github.io/generate-a-password/"
@@ -171,11 +187,11 @@ function main() {
       <div id="contact-me">
         <h2>Contact Me</h2>
         <p></p>
-        <form className="contact-form">
+        <form className="form-input">
           <p>
             <label for="username">Name:</label>
             <input
-              className="text-input"
+              className="form-input"
               id="username"
               type="text"
               placeholder="Contact name"
@@ -184,7 +200,7 @@ function main() {
           <p>
             <label for="email">E-mail:</label>
             <input
-              className="text-input"
+              className="form-input"
               id="email"
               type="text"
               placeholder="me@example.com"
@@ -199,10 +215,11 @@ function main() {
             ></textarea>
           </p>
           <p>
-            <button>Send</button>
+            <button className="text-input">Send</button>
           </p>
         </form>
       </div>
+
     </section>
   );
 }

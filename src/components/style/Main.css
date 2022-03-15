@@ -1,26 +1,44 @@
-:root {
-  --dark: rgb(254, 217, 143);
-  --light: rgb(254, 252, 212);
-  --blue: rgb(202, 233, 251);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-* {
-  font-family: Verdana, Tahoma, sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+body {
+  color: #242f3f;
+  font-family: "Merriweather", serif;
+  line-height: 1.6;
+  background: #FFFFFF;
+  font-size: .875rem;
+  overflow-x: hidden; }
+  @media (min-width: 50em) {
+    body {
+      font-size: 1.125rem; } }
 
+    
 .quote {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 5%;
   flex-wrap: wrap;
   line-height: 2.5;
-  color: black;
+  color: #A7A7A7;
   height: 110px;
+}
+
+.quote p {
+  text-align: center;
+  font-weight: 400;
+  color: #253546;
+}
+
+@media screen and (max-width: 786px) {
+  footer {
+    background-color: var(--dark);
+  }
 }
 
 #about-me {
@@ -61,7 +79,9 @@
   justify-content: space-evenly;
   margin: 3%;
 }
-
+.my-work-card a{
+  color: #CC6D6E;
+}
 .my-work-card p {
   margin: 2%;
 }
@@ -96,7 +116,9 @@
   border-radius: 15px;
   opacity: 1;
 }
-
+.my-work-card section {
+  color: #A7A7A7;
+}
 #contact-me {
   width: max-content;
   display: flex;
@@ -172,11 +194,11 @@ button:hover {
   margin-right: 2%;
 }
 
-#resume {
+.resume {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 4%;
+  margin: 6%;
   line-height: 2em;
 }
 
@@ -188,9 +210,6 @@ button:hover {
     align-items: center;
   }
 
-  footer {
-    background-color: var(--light);
-  }
 
   .page-title {
     margin-left: 0;
@@ -233,4 +252,13 @@ button:hover {
   .my-work-card:first-child {
     width: 90%;
   }
+}
+form .form-input {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ffffff;
+  margin: 0.625rem 0;
+  font-size: 1.2rem;
+  border: 1px solid #005F73;
+  border-radius: 0.3rem;
 }
